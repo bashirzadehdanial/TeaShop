@@ -18,13 +18,14 @@ body{
 }
 
 .header-container, .footer-container{
-    position: sticky;
+    
     width: 100%;
     padding: 10px 0px;
     
    
 }
 .header-container{
+    position: sticky;
     top: 0px;
     display: flex;
     justify-content: space-between;
@@ -85,7 +86,11 @@ body{
 .images{
     height: 200px;
     width: 300px;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
 }
 
 .section-2{
@@ -93,5 +98,9 @@ body{
 }
 
 .images-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
 }
